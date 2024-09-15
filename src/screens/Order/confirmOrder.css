@@ -1,0 +1,77 @@
+
+.order-confirmation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4b8ae;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .confirmation-message {
+    background-color: #f7e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .confirmation-message h1 {
+    color: #a428bd;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-message p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .order-details {
+    margin-bottom: 20px;
+  }
+  
+  .home-button {
+    background-color: #e56b69;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #a04a5b;
+  }
+  
+
+.order-items-table {
+  width: 90%;
+  max-width: 600px;
+  border-collapse: collapse; 
+  margin-bottom: 20px;
+}
+
+.order-items-table th, .order-items-table td {
+  border: 1px solid #ddd; 
+  padding: 10px;
+  text-align: left;
+}
+
+
+.order-items-table tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}
+
+.order-items-table tr:hover {
+  background-color: #ddd; 
+}
+
+.total-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
